@@ -87,3 +87,926 @@ html,body{
     transform: translateX(-50%);
     white-space: nowrap;
 }
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+#page2>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page2>h1{
+    font-size: 4vw;
+    font-weight: 200;
+    position: absolute;
+    color: #fff;
+    bottom: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    text-align: center;
+}
+#page3{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+#page3>video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page3>h1{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    bottom: 30%;
+    white-space: nowrap;
+    font-weight: 200;
+    font-size: 4vw;
+    transform: translateX(-50%);
+}
+#page4{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page4 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#page4 h1{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size:4vw  ;
+    font-weight: 400;
+}
+#page4 h2{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 50%;
+    opacity: 0;
+    bottom: 20%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size:4vw  ;
+    font-weight: 600;
+    
+}
+#page5{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #fff;
+}
+#page5>img{
+    width: 60%;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#page5-upper{
+    height: 35%;
+    width: 50%;
+    position: absolute;
+    z-index: 9;
+    left: 50%;
+    top:5%;
+    transform: translateX(-50%);
+}
+#page5-upper>img{
+    width: 70%;
+    top: 10%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+#page5-Uinner{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    bottom: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 45px 100px;
+    color: #ff7c3fee;
+    font-weight: 100;
+
+}
+#page5-Uinner h3{
+    font-weight: 520;
+    font-size: 2vw;
+}
+#page5>button{
+    position: relative;
+    top:85%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50px;
+    border: 1px solid #000;
+    background-color: #fff;
+    font-weight: 400;
+    font-size: 2vw;
+    padding: 10px 20px;
+    
+}
+#page6{
+    position: relative;
+    height: 100vh;
+    width: 100vw;   
+}
+#page6 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#center-page6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 600;
+    white-space: nowrap;
+}
+#page7{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+}
+.left7{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.left7>h1{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.right7{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 50%;
+    padding: 3vw;
+    
+}
+.right7>h3{
+    font-size: 1.8vw;
+    width: 100%;
+    color: #484848d7;
+    padding-bottom: 10px;
+    line-height: 1.3;
+}
+.right7>button{
+    border-radius: 50px;
+    background-color: #ff823d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    scale: 1.2;
+    font-size: 1vw;
+    margin-left: 5vw;
+    margin-top:2vw;
+
+}
+
+#page8{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page8 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#center-page8{
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 600;
+}
+#center-page8>h1{
+    font-size: 6vw;
+}
+#center-page8>h3{
+    font-size: 3vw;
+}
+#page9{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+}
+.right9{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.left9{
+    position: relative;
+    height: 100%;
+    width: 50%;
+}
+.left9 h1{
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    font-weight: 700;
+}
+.right9 h3{
+    font-size: 1.8vw;
+    width: 100%;
+    color: #484848d7;
+    padding-bottom: 10px;
+    line-height: 1.3;
+    margin-top: 12%;
+
+}
+.right9 button{
+    border-radius: 50px;
+    background-color: #ff823d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    scale: 1.3;
+    font-size: 1.2vw;
+    margin-left: 2.3vw;
+    margin-top:2vw;
+}
+#page10{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page10 video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;   
+}
+#center-page10{
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    white-space: nowrap;
+    font-weight: 600;
+}
+#center-page10 h1{
+    font-size: 6vw;
+}
+#center-page10>h3{
+    font-size: 3vw;
+}
+
+#page11{
+    position: relative;
+    height: 70vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+#page11 h3{
+    margin-bottom: 1.5vw;
+    font-size: 2vw;
+}
+#page11 h1{
+    margin-bottom: 1.5vw;
+    font-size: 5vw;
+}
+#page11 p{
+    width: 80%;
+    font-size: 2vw;
+    font-weight: 500;
+    color: #545454c9;
+}
+#page12{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page12 canvas{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+    z-index: 99;
+}
+#page13{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page13 h1{
+    width: 20%;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-size: 1.6vw;
+    font-weight: 560;
+    color: #4d4d4d;
+    position: absolute;
+    z-index: 99;
+}
+#page13 span{
+    color: #000;
+}
+#page14{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page14 h1{
+    width: 20%;
+    top: 50%;
+    right: 8%;
+    transform: translateY(-50%);
+    font-size: 1.6vw;
+    font-weight: 560;
+    color: #4d4d4d;
+    position: absolute;
+    z-index: 99;
+}
+#page14 span{
+    color: #000;
+}
+#page15{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page15 h1{
+    width: 20%;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-size: 1.6vw;
+    font-weight: 560;
+    color: #4d4d4d;
+    position: absolute;
+    z-index: 99;
+}
+#page15 span{
+    color: #000;
+}
+#page16{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page16 h1{
+    width: 20%;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-size: 1.6vw;
+    font-weight: 560;
+    color: #4d4d4d;
+    position: absolute;
+    z-index: 99;
+}
+#page16 span{
+    color: #000;
+}
+#page17{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page17 h1{
+    width: 20%;
+    top: 50%;
+    right: 8%;
+    transform: translateY(-50%);
+    font-size: 1.6vw;
+    font-weight: 560;
+    color: #4d4d4d;
+    position: absolute;
+    z-index: 99;
+}
+#page17 span{
+    color: #000;
+}
+#page18{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+#page18 h1{
+    width: 20%;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    font-size: 1.6vw;
+    font-weight: 560;
+    color: #4d4d4d;
+    position: absolute;
+    z-index: 99;
+}
+#page18 span{
+    color: #000;
+}
+#page19{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #f5f5f7;
+}
+.left19{
+    position: relative;
+    height: 90%;
+    width: 45%;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_top__k3b8lzqd1l2m_large.jpg);
+    background-size: cover;
+}
+.right19{
+    position: relative;
+    height: 90%;
+    width: 45%;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_side__gm4agomrwl2e_large.jpg);
+    background-size: cover;
+}
+#page20{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page20>video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    padding: 20px 20px;
+}
+#page21{
+    position: relative;
+    height: 125vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+}
+#page21 img{
+    position: absolute;
+    width: 60%;
+    bottom: 0%;
+}
+#page21 h2{
+    position: absolute;
+    width: 50%;
+    color: #434343c7;
+    z-index: 1;
+    top: 11%;
+    font-weight: 550;
+}
+#page21 span{
+    color: #000;
+    font-weight: 700;
+}
+#page21 button{
+    position: absolute;
+    bottom: 8%;
+    border-radius: 50px;
+    scale: 1.4;
+    padding: 10px 20px;
+    background-color: #fa7a35f1;
+    border: 1px solid #f5f5f7;
+    color: #f5f5f7;
+    font-size: 1.4vw;
+}
+#page22{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page22 video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#center-page22{
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    text-align: center;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-weight: 600;
+}
+#center-page22 h1{
+    font-size: 6vw;
+}
+#center-page22 h3{
+    font-size: 3vw;
+}
+#page23{
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+}
+.left23{
+    position: relative;
+    height: 100%;
+    width: 45%;
+}
+.right23{
+    position: relative;
+    height: 100%;
+    width: 50%;
+    
+}
+.left23 h1{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    font-weight: 700;
+    font-size: 2.3vw;
+}
+.right23 h3{
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    font-size: 1.9vw;
+    color: #4d4d4d;
+    line-height: 1.3;
+    margin-top: 12%;
+}
+#page24{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100vw;
+}
+.left24{
+    height: 90%;
+    width: 45%;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/c/images/overview/visionos/scaling_ui__gosi0305um2y_large_2x.jpg);
+    background-size: cover;
+   margin-left: 30px;
+   border-radius: 10px;
+}
+.right24{
+    height: 90%;
+    width: 45%;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/c/images/overview/visionos/spatial_interaction__br11mf88bzxy_large_2x.jpg);
+    background-size:cover ;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+#page25{
+    position: relative;
+    display: flex;
+    height: 50vh;
+    width: 100vw;
+}
+.left25{
+    position: relative;
+    height: 100%;
+    width:80%;
+}
+.right25{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.left25 h1{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+.right25 h3{
+    position: absolute;
+    margin-top: 13%;
+    font-weight: 550;
+    color: #4d4d4d;
+    width: 100%;
+    font-size: 1.9vw;
+    line-height: 1.3;
+}
+#page26{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page26 img{
+    position: absolute;
+    padding: 35px 35px;
+    height: 100%;
+    width: 100%;
+}
+#page27{
+    display: flex;
+    position: relative;
+    height: 60vh;
+    width: 100vw;
+}
+.left27{
+    position: relative;
+    height: 100%;
+    width: 80%;
+
+}
+.right27{
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.left27 h1{
+    position: absolute;
+    top: 12%;
+    left: 20%;
+}
+.right27 h3{
+    position: absolute; 
+    width: 100%;
+    font-size: 1.8vw;
+    margin-top: 8%;
+    font-weight: 600;
+    color: #4d4d4d;
+    line-height: 1.3;
+}
+.right27 button{
+    position: absolute;
+    bottom: 20%;
+    left: 5%;
+    scale: 1.2;
+    padding: 12px 12px;
+    border-radius: 50px;
+    font-size:1.5vw ;
+    color: #f5f5f7;
+    border: 1px solid #f5f5f7;
+    background-color: #ff823d;
+}
+#page28{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    top: 0%;
+}
+#page28 canvas{
+    position: relative;
+    max-width: 100vw;
+    max-height: 100vw;
+}
+#page29{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f5f5f7;
+    position: relative;
+    height: 30vh;
+    width: 100vw;
+    flex-direction: column;
+    background-color: #000;
+    text-align: center;
+}   
+#page29 h4{
+    color: #4d4d4d;
+    font-size: 1.8vw;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+#page29 span{
+    color: #fff;
+}
+#page30{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+#page30 video{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#right30{
+    position: absolute;
+    right: 5%;
+    bottom: 22%;
+    height: 50%;
+    width: 40%;
+    padding: 20px 20px;
+}
+#right30 h1{
+    color: #fff;
+}
+#right30 h3{
+    margin-top: 5%;
+    color:#f5f5f776;
+    font-weight: 800;
+    line-height: 1.3;
+    font-size: 1.7vw;
+}
+#right30 span{
+    color: #fff;
+}
+#page31{
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-color: #000;
+}
+#page31 #off{   
+    position: absolute;
+    width: 50%;
+    top: 40%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+}
+#page31 #on{   
+    position: absolute;
+    width: 50%;
+    top: 40%;
+    left: 50%;
+    width: 70%;
+    transform: translate(-50%,-50%);
+}
+#bottom-page31{
+    position: absolute;
+    top: 35%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#bottom-page31 h1,span{
+    color: #f5f5f7;
+    font-size: 2vw;
+}
+#bottom-page31 h3{
+    color: #4d4d4d;
+    font-size: 1.8vw;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+#page32{
+    position: relative;
+    height: 150vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+#page32 #soff{   
+    position: absolute;
+    width: 50%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 9;
+}
+#page32 #son{   
+    position: absolute;
+    width: 50%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#bottom-page32{
+    position: absolute;
+    top: 35%;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#page32 #son {
+    width: 80%;
+}
+#page32 #soff {
+    width: 80%;
+}
+#bottom-page32 h1{
+    color: #f5f5f7;
+    font-weight: 500;
+    font-size: 3vw;
+}
+#bottom-page32 h3{
+    color: #4d4d4d;
+    margin-top: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+    font-size: 2vw;
+    width: 80%;
+}
+#bottom-page32 span{
+    color: #f5f5f7;
+}
+#page33{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+#page33 img{
+    margin-top: 10%;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+}
+#page34 {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#page34 h1{
+    color: #f5f5f7;
+    font-size: 3.3vw;
+    margin-top: 5%;
+    padding: 5px 5px;
+}
+#page34 h3{
+    margin-top: 2%;
+    color: #5e5e5e;
+    line-height: 1.5;
+    width: 50%;
+    font-size: 2vw;
+    font-weight: 500;
+}
+#page34 span{
+    color: #f5f5f7;
+}
+#page34 button{
+    padding: 15px 15px;
+    border-radius: 50px;
+    margin-top: 8%;
+    background-color: #f5f5f7;
+    color: #000;
+    scale: 1;
+    border: 1px solid #fff;
+    font-size: 1.8vw;
+    font-weight: 500;
+}
+
+
+
